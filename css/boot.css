@@ -1,0 +1,745 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@200&display=swap');
+body{
+	font-family: poppins;
+}
+
+header{
+	float: left;
+	width: 100%;
+	margin-top: 53px;
+
+}
+.left img{
+	
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+
+}
+.left{
+	float: left;
+}
+/*.sright img{animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-name: example3;
+}
+	 @keyframes example3 {
+ 0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+
+}*/
+
+
+
+.right{
+	display: flex;
+	justify-content: end;
+	float: left;
+}
+.right button{
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+border-radius: 2px;
+box-shadow: 0px 20px 40px 0px #808F9630;
+transition: 1s ease;
+position: relative;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+@keyframes example2 {
+  0%   {bottom: 0px; top:0px; color: white;}
+  50% {bottom: 8px; top:-8px; color: black;}
+  100%{bottom: 0px;top: 8px; color: white;}
+}
+.right button:hover{
+background: rgba(100, 123, 100, 0.8);
+color:black;
+border-color: black;
+
+}
+header ul li{
+	list-style: none;
+	display: inline;
+	padding: 25px;
+
+}
+header a{
+	text-decoration: none;
+	color: #333333;
+
+}
+header a:hover{
+	text-decoration: underline;
+	
+	color: black;
+}
+.mybutton{
+	display: none;
+	float: left;
+}
+
+.sec1{
+	float: left;
+	width: 100%;
+}
+.sleft{
+	float: left;
+	    padding: 67px;
+    margin-top: 40px;
+}
+.sleft button{
+	padding: 15px;
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+box-shadow: 0px 20px 40px 0px #808F9630;
+border-radius: 2px;
+transition: 1s ease;
+}
+.sleft button:hover{
+background-color: lightgreen;
+	color: black;
+	font-size: 20px;
+	border-color: black;
+}
+.sleft i{
+	padding-left: 60px;
+}
+.sleft p{
+	padding: 40px 0px;
+
+}
+.sright{
+	float: left;
+}
+.sright img{
+	padding-left: 150px;
+}
+.aleft{
+float: left;
+padding: 60px;
+}
+.aleft button{
+	padding: 15px;
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+box-shadow: 0px 20px 40px 0px #808F9630;
+border-radius: 2px;
+transition: 1s ease;
+}
+.aleft button:hover{
+background-color: lightgreen;
+	color: black;
+	font-size: 20px;
+	border-color: black;
+}
+
+
+.sec2{
+	float: left;
+	width: 100%;
+}
+.aleft i{
+	padding-left: 60px;
+}
+.hed{
+background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+margin-left: -150px;
+text-align: right;
+font-family: Avenir Next;
+}
+.aleft p{
+	padding: 17px 0px;
+}
+.aright{width: 100%;
+	float: left;
+	margin-top: 60px;
+}
+.
+.card i{
+	border-radius: 8px;
+	padding: 7px;
+	background: #FFFFFF;
+}
+.inner h5{
+	color: rgba(243, 181, 98, 1);
+}
+.inner h1{
+	color: rgba(100, 123, 100, 1);
+}
+
+.asmita{
+	float: left;
+}
+.bhard{
+	float: left;
+}
+.card.aka{
+	border: none;
+	padding-top: 70px;
+}
+.aright .aka:hover{
+	background: rgba(255, 255, 255, 1);
+box-shadow: 0px 5.874383926391602px 31.330047607421875px 0px rgba(155, 148, 148, 0.17);
+    transition: 1s ease;
+}
+.aright .aka i{
+	padding: 7px;
+	border-radius: 10px;
+}
+.aright .aka:hover i{
+	background: rgba(100, 123, 100, 1);
+color: white;
+
+    transition: 1s ease;
+
+}
+.card.bus{
+	border: none;
+}
+.sec3{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+}
+.inner{width: 100%;
+	float: left;
+	text-align: center;
+}
+.cardz h5, .cardz p{
+	color: rgba(51, 51, 51, 1);
+
+
+}
+.cardz h5{
+	padding: 7px 0px;
+}
+.cardz{
+	margin-top: 35px;
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.cardz .card{
+	float: left;
+ background-image: linear-gradient(to bottom, rgba(169, 169, 169, 0), rgba(169, 169, 169, 0.2));
+	text-align: left;
+	border-radius: 8px;
+}
+.cardz .card:hover{
+	background: rgba(100, 123, 100, 1);
+	    transition:  1s ease;
+}
+.cardz  .card i{
+	padding: 5px;
+		border-radius: 7px;
+}
+.cardz .card:hover i{
+	color:rgba(100, 123, 100, 1);
+	background-color: white;
+	padding: 5px;
+
+	  transition:  1s ease;
+	
+	    /*transition:  .90s ease;*/
+}
+.cardz .card:hover h5 {
+	color: white;
+}
+.cardz .card:hover p{
+	color: white;
+}
+.cardz .card-body{
+	padding: 60px 0px;
+	margin-left: 20px;
+}
+.card .alo {
+	color: rgba(100, 123, 100, 1);
+font-size: 39px;
+padding-bottom: 10px;
+}
+.hed{
+	text-align: center;
+}
+.hed h5{
+	width: 34%;
+    margin: 0 30%;
+ padding: 16px 0px;
+    	color: rgba(243, 181, 98, 1);
+}
+.hed h1{
+	color: rgba(100, 123, 100, 1);
+}
+.sec4{
+	float: left;
+	width: 100%;
+}
+.photo{margin-top: 5rem;
+	float: left;
+	width: 100%;
+}
+.bleft{
+	float: left;
+	position: relative;
+}
+.bleft img {
+    max-width: 100%;
+    }
+
+
+.bleft::after{
+	top: -5%;
+	right: 19%;
+	    position: absolute;
+    content: "";
+    background-image: url(../images/dot.png);
+    z-index: -1;
+    height: 146px;
+    width: 200px
+}
+
+.bright{
+	float: left;
+	margin-top: 160px;
+}
+.bright button{
+	margin-top: 20px;
+	padding: 21px;
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+box-shadow: 0px 20px 40px 0px #808F9630;
+border-radius: 2px;
+transition: 1s ease;
+}
+.bright button:hover{
+background-color: lightgreen;
+	color: black;
+	font-size: 20px;
+	border-color: black;
+}
+.bright i{
+	padding-left: 130px;}
+
+.bright p{
+color: rgba(79, 79, 79, 1);
+font-size: 16px;
+	}
+.bright h6{
+color: rgba(243, 181, 98, 1);
+    font-family: Avenir Next;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+	}
+.bright h3{
+		color: rgba(100, 123, 100, 1);
+		    font-family: Avenir Next;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 45px;
+    padding: 18px 0px;
+
+	}
+.bright .card{
+	border: none;
+		}
+.sec5{
+	margin-top: 75px;
+	float: left;
+	width: 100%;
+}
+.writ{
+	float: left;
+	width: 100%;
+}
+.carl{
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.carl span i{ font-size: 30px;
+color: white;
+border-radius:50px ;
+padding: 20px;
+background: linear-gradient(102.3deg, #647B64 -4.62%, #6ADD6A 178.22%);
+opacity: 1;
+
+/*
+ animation-name: example1;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+
+
+}
+/*@keyframes example1 {
+  0%   {padding: 20px; font-size: 30px;}
+  50%{padding: 25; font-size: 33px;}
+  100%{padding: 30px; font-size: 36px;}
+
+
+}*/
+
+
+
+.writ h6{color: rgba(243, 181, 98, 1);
+	    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.writ h2{
+	color: rgba(100, 123, 100, 1);
+	font-size: 41px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.hello{
+	padding: 10px;
+margin-bottom: 20px;
+	box-shadow: 0px 12px 24px 0px rgba(20, 20, 43, 0.09);
+background: rgba(255, 255, 255, 1);
+height: 79px;
+border-radius: 18px;
+}
+.hello strong{
+	padding-top: 37px;
+	padding-left: 40px;
+}
+.bat .wat{
+padding: 20px;
+	box-shadow: 0px 12px 24px 0px rgba(20, 20, 43, 0.09);
+
+border-radius: 18px !important;
+margin-bottom: 20px;
+	border: none;
+
+}
+
+button.accordion-button.try {
+    box-shadow: none;
+}
+
+button.accordion-button.try:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+    color: #000;
+}
+.foot li a:hover{
+text-decoration: underline;
+color: black;
+
+}.sec6{
+	float: left;
+	width: 100%;
+}
+.acd{margin-top: 8rem;
+	float: left;
+	width: 100%;
+}
+
+footer{
+	margin-top: 90px;
+	float: left;
+height: 420px;
+background: rgba(240, 220, 197, 1);
+
+	width: 100%;
+}
+footer li{
+	list-style: none;
+}
+.foot{padding-top: 80px;
+	float: left;
+	width: 100%;
+}
+.ab{
+	float: left;
+}
+.ab i{
+	
+	color:  rgba(100, 123, 100, 1);
+background: rgba(100, 123, 100, 0.1);
+border-radius: 50px;
+padding: 8px;
+
+}
+.ab p{
+	padding: 7px 0px;
+}
+.bc{
+	float: left;
+}
+.bc li{
+	padding: 10px 0px;
+
+}
+.bc a{
+	text-decoration: none;
+	color: black;
+}
+.cd a{
+	text-decoration: none;
+	color: black;
+}
+.cd{
+	float: left;
+}
+.cd li{
+	padding: 10px 0px;
+}
+.de{
+	float: left;
+}
+.de textarea{
+height: 120px;
+width: 257px;
+margin-bottom: 20px;
+margin-top: 10px;
+padding: 13px;
+
+}
+textarea:focus{
+	outline: none;
+}
+.de button{
+	padding: 15px;
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+box-shadow: 0px 20px 40px 0px #808F9630;
+border-radius: 2px;
+}
+.de button:focus{
+	color: black;
+	border-color: black;
+}
+.de i{
+	padding-left: 100px;
+}
+.de textarea{
+	border: none;
+	border-radius: 2px;
+}
+.placer{
+padding: 3px;
+}
+footer h5{
+	color: rgba(100, 123, 100, 1);
+
+}
+
+
+
+
+@media only screen  and (max-width: 767px){
+
+
+
+
+.sright img{
+	padding-left: 0px;
+}
+.hed{
+	margin-left: 0px;
+}
+.cardz{
+	flex-direction: column;
+	padding: 16px;
+}
+.left{
+	width: 60%;
+}
+.mybutton{
+	display: block;
+	float: left;
+width: 40%;
+text-align: right;
+
+}
+.mybutton button{
+	background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+
+}
+#demo{
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.sright{
+	display: none;
+}
+.right{
+	display: none;
+}
+.aright{
+	margin-top: 0px;
+padding: 44px;
+}
+.bleft img{
+	max-width: 92%;
+}
+.bleft::after{
+	right: 0%;
+	top: -9%;
+}
+
+.bright h3{
+	font-size: 35px;
+}
+
+
+.bright h6{
+	font-size: 25px;
+}
+.writ h2 {
+	font-size: 25px;
+}
+
+.writ h6{
+	font-size: 18px;
+}
+footer{
+	height: 950px;
+}
+
+.hello strong{
+	padding-left: 23px;
+}
+
+.carl span i {
+    font-size: 15px;
+   
+    padding: 12px;
+   
+}
+.ash img{
+	max-width: 70%;
+}
+footer .ab{
+	padding-left: 33px;
+	margin-bottom: 40px;
+}
+.foot .de{
+	padding-left: 27px;
+	margin-top: 20px;
+}
+.writ{
+	padding-left: 25px;
+}
+
+.hed h5{
+	width: 100%;
+	margin: 0px;
+}
+}
+@media only screen  and (min-width: 767px) and (max-width: 999px){
+.sleft{
+	padding: 0px;
+	margin-top: 176px;
+}	
+.sright{
+	text-align: center;
+}
+.hed h5{
+	margin: 0;
+	width: 100%;
+}
+.hed{
+	margin-left: 0px;
+	text-align: left;
+	margin-top: 100px;
+}
+.aleft{float: left;
+	width: 100% !important;
+	padding: 0;
+}
+.hed h1{
+	font-size: 23px;
+}
+
+.bleft img{
+	max-width: 75%;
+}
+.bright{
+	margin-top: 0;
+}
+.card-body{
+	padding: 0 !important;
+}
+.bright h6{
+	font-size: 18px;
+}
+.bright h3{
+padding: 0;
+	font-size: 26px;
+}
+
+.bright p{
+	font-size: 12px;
+}
+.bright i{
+	padding-left: 90px;
+}
+
+.ball{
+	padding-left: 31px;
+}
+
+
+.cardz .card{
+	padding: 20px;
+}
+.sright img{
+	padding-left: 0;
+}
+footer{
+	height: 478px;
+}
+.aright{padding-left: 40px;
+	float:left ;
+width: 100% !important;
+}
+.left{
+	width: 30% !important;
+}
+.right{
+	width: 70% !important;
+}
+header ul{
+	margin-top: 7px;
+}
+header ul li{
+	padding: 0;
+	margin: 9px;
+}
+.de textarea{
+	width: 176px;
+}
+.de i{
+	padding-left: 8px;
+}
+.ab img{
+	max-width: 57%;
+}
+
+.de
+
+
+
+
+
+
+
+
+
+}
+
