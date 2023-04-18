@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>home</title>
+
+        <link rel="stylesheet" type="text/css" href="css/pet.css" />
+        <link rel="stylesheet" type="text/css" href="css/PetProject.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="components/footer.js" type="text/javascript" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
+        <script>
+            function myFunctionz() {
+                var x = document.getElementById("myInputz");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
+               
+    </head>
+    <body>
+        <div class="home_page">
+            <header>
+                <div class="container">
+                    <div class="hed">
+                        <div class="col-sm-4 logo">
+                            <img src="images/logo.png" />
+                        </div>
+                        <div class="col-sm-4 option">
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contactus.html">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4 drop">
+                            <ul>
+                                <li class="lizt">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </li>
+                                <li class="lizt">
+                                    <div class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <a href="#"><i class="fa-regular fa-user"></i> LOG IN</a>
+                                    </div>
+
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                                            <div class="modal-content mymodal">
+                                                <div class="col-sm-5 modal_img">
+                                                    <div class="modal_img1">
+                                                        <div class="logos"><img src="images/logo1.png" /></div>
+                                                        <p>Lorem Ipsum is simply dumm text ofthe printing and typesetting.</p>
+                                                        <div class="back"><img src="images/lookback.png" /></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-7 modal_txt">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: relative; left: 315px;"></button>
+                                                    <h2>Create Account</h2>
+                                                    <span>
+                                                        <button type="button" class="btn btn-light signup"><img src="images/google.png" /> Sign Up with Google</button>
+                                                    </span>
+                                                    <span>
+                                                        <button type="button" class="btn btn-light signup"><img src="images/Facebook.png" /> Sign Up with Facebook</button>
+                                                    </span>
+                                                    <p style="padding-top: 35px;">- OR -</p>
+
+                                                    <input type="text" name="text" placeholder="Full Name" /><br />
+
+                                                    <input id="number" type="tel" /><br />
+
+                                                    <input type="text" name="text" placeholder="Email Address" /><br />
+
+                                              <div class="wordpass">      <input type="password" name="pass" id="myInput" placeholder="Password" />
+                                                    <i class="fa-regular fa-eye" onclick="myFunction()"></i></div>
+
+                                                    <div class="i_agree">
+                                                        <br />
+                                                        <input type="checkbox" name="check" /> I agree with <strong>Terms</strong> and <strong>Privacy</strong>
+                                                        <br />
+
+                                                        <button type="button" class="btn btn-dark create_account">CREATE ACCOUNT</button>
+                                                        <div style="padding-top: 10px;">
+                                                            Already have an account?
+                                                             <div class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-dismiss="modal">
+                                               <strong><a href="#" style="text-decoration: none; color: black;"> Login</a></strong>
+
+                                              </div></div>
+
+                                                                
+
+                                           </div>
+                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   
+ 
+                                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                                            <div class="modal-content mymodal">
+                                                <div class="col-sm-5 modal_img">
+                                                    <div class="modal_img1">
+                                                        <div class="logos"><img src="images/logo1.png" /></div>
+                                                        <p>Lorem Ipsum is simply dumm text ofthe printing and typesetting.</p>
+                                                        <div class="back"><img src="images/lookback.png" /></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-7 modal_txt">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: relative; left: 315px;"></button>
+                                                    <h2>Login</h2>
+                                                    <span>
+                                                        <button type="button" class="btn btn-light signup"><img src="images/google.png" /> Sign Up with Google</button>
+                                                    </span>
+                                                    <span>
+                                                        <button type="button" class="btn btn-light signup"><img src="images/Facebook.png" /> Sign Up with Facebook</button>
+                                                    </span>
+                                                    <p style="padding-top: 35px;">- OR -</p>
+
+                                                    <input type="text" name="text" placeholder="Full Name" /><br />
+
+                                                    
+
+                                                  <div class="wordpass">  <input type="password" name="passd" id="myInputz" placeholder="Password" />
+                                                    <i class="fa-regular fa-eye" onclick="myFunctionz()"></i></div>
+
+                                                    <div class="i_agree">
+                                                        <br />
+                                                        
+
+                                                        <button type="button" class="btn btn-dark create_account">Login</button>
+                                                        <div style="padding-top: 10px;">
+                                                            Don't have an account? <div class="mod" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-dismiss="modal">
+                                               <strong><a href="#" style="text-decoration: none; color: black;"> Signup</a></strong>
+
+                                              </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+             
+                                </li>
+
+                                <li class="lizt">
+                                    <a href="cart.html">
+                                        <button type="button" class="btn btn-dark cart"><img src="images/bag.png" /><span>CART</span></button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="pets_happy">
+                <div class="container">
+                    <div class="col-sm-6 pets_happy_txt">
+                        <div class="p_h_txt">
+                            <h4>We make Pets HAPPY!</h4>
+                            <p>Human–canine bonding is the relationship between dogs and humans.</p>
+                            <button type="button" class="btn btn-light explore">Explore More <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 pets_happy_img">
+                        <img src="images/all.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="explore_categories">
+                <div class="expl_catgs">
+                    <div class="container">
+                        <h3 class="explore_heading">Explore by Categories</h3>
+                        <hr style="width: 100px; height: 3px;" />
+
+                        <div class="categories">
+                            <div class="catgs">
+                                <img src="images/boy.png" />
+                                <p>Grooming</p>
+                            </div>
+                            <div class="catgs">
+                                <img src="images/bones.png" />
+                                <p>Healthcare</p>
+                            </div>
+                            <div class="catgs">
+                                <img src="images/man.png" />
+                                <p>Daycare</p>
+                            </div>
+                            <div class="catgs">
+                                <img src="images/lock.png" />
+                                <p>Training</p>
+                            </div>
+                            <div class="catgs">
+                                <img src="images/bath.png" />
+                                <p>Hyginic care</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dog_video">
+                <div class="container">
+                    <div class="col-sm-6 dog_img">
+                        <div class="imagez"><img src="images/food.png" /></div>
+                    </div>
+                    <div class="col-sm-6 dog_txt">
+                        <div class="dog_txxt">
+                            <h4>Dogs do speak, but only to those who know how to listen.</h4>
+                            <p>
+                                Sweet roll ice cream powder candy canes ice cream donut pudding biscuit ice cream. Cupcake tootsie roll sugar plum danish pudding fruitcake cheesecake jelly-o. Pie muffin topping cake. Pudding biscuit
+                                caramels topb
+                            </p>
+                            <button type="button" class="btn btn-dark explore">Explore More <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="s2">
+                <div class="container">
+                    <div class="hello">
+                        <h4>New Arrivals</h4>
+                        <hr style="width: 100px; height: 3px;" />
+
+                        <h2 class="col-sm-6 text"><strong>25 % OFF ALL</strong> Products</h2>
+                        <div class="col-sm-6 view">
+                            <a href="productlist.html">
+                                <button type="button" class="btn btn-dark">View More <i class="fa-solid fa-chevron-right"></i></button>
+                            </a>
+                        </div>
+                        <div class="bobby">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card bob" style="width: 19rem;">
+                                        <img src="images/pro.png" class="card-img-top" alt="..." />
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Drools | 3KG</h5>
+                                            <p class="card-text">Adult chicken and egg Egg, Chicken 3 kg Dry Adult Dog Food</p>
+                                            <button type="button" class="btn btn-light add">Add Cart</button><button type="button" class="btn btn-light like"><i class="fa-regular fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card bob" style="width: 19rem;">
+                                        <img src="images/pro2..png" class="card-img-top" alt="..." />
+
+                                        <div class="card-body">
+                                            <h5 class="card-title">Canine Creek 4 KG</h5>
+                                            <p class="card-text">Adult chicken and egg Egg, Chicken 3 kg Dry Adult Dog Food</p>
+                                            <button type="button" class="btn btn-light add">Add Cart</button><button type="button" class="btn btn-light like"><i class="fa-regular fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card bob" style="width: 19rem;">
+                                        <img src="images/pro3.png" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Biscork Biscuits</h5>
+                                            <p class="card-text">Adult chicken and egg Egg, Chicken Dry Adult Dog Food</p>
+                                            <button type="button" class="btn btn-light add">Add Cart</button><button type="button" class="btn btn-light like"><i class="fa-regular fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_5">
+                <div class="container">
+                    <div class="col-sm-6 txt_left">
+                        <div class="dog_txxt">
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec integer cursus nisl.</h4>
+                            <p>Sweet roll ice cream powder candy canes ice cream donut pudding biscuit ice cream.biscuit caramels topb</p>
+                            <button type="button" class="btn btn-dark explore">Explore More <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 man_img">
+                        <img src="images/mandog.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_6">
+                <div class="container">
+                    <div class="happy_customer">
+                        <h4>Happy Customer</h4>
+                        <hr style="width: 100px; height: 4px; color: rgba(58, 141, 168, 1);" />
+
+                        <div class="happy_custom">
+                            <div class="col-sm-4 girls">
+                                <div class="girls_inner">
+                                    <img src="images/girl1.png" class="girl_img" />
+                                    <div class="girls_content">
+                                        <h5>Anna & Tobby</h5>
+                                        <p>Amazing Products & Delivery on time.</p>
+                                        <img src="images/rate.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 girls">
+                                <div class="girls_inner">
+                                    <img src="images/girle2.png" class="girl_img" />
+                                    <div class="girls_content">
+                                        <h5>Anna & Tobby</h5>
+                                        <p>Amazing Products & Delivery on time.</p>
+                                        <img src="images/rate.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 girls">
+                                <div class="girls_inner">
+                                    <img src="images/girl3.png" class="girl_img" />
+                                    <div class="girls_content">
+                                        <h5>Anna & Tobby</h5>
+                                        <p>Amazing Products & Delivery on time.</p>
+                                        <img src="images/rate.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="explore_button">
+                            <button type="button" class="btn btn-dark explore">Explore More <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_7">
+                <div class="container">
+                    <div class="extra">
+                        <h4>Subscribe and Get 25% Off!</h4>
+                        <div class="img"><img src="images/line.png" /></div>
+                        <p>Get weekly update about our product on your email, no spam guaranteed we promise ✌️</p>
+                        <div class="forms">
+                            <form class="txt">
+                                <input type="text" placeholder="Enter your email..." />
+                            </form>
+
+                            <button type="button" class="btn btn-light bot">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <footer-component></footer-component>
+            </div>
+        </div>
+
+        <script>
+            const phoneInputField = document.querySelector("#number");
+            const phoneInput = window.intlTelInput(phoneInputField, {
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            });
+        </script>
+        
+    </body>
+</html>

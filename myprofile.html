@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my profile</title>
+	<link rel="stylesheet" type="text/css" href="css/pet.css" />
+        <link rel="stylesheet" type="text/css" href="css/PetProject.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="components/footer.js" type="text/javascript" defer></script>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="myprofile">
+	<header-component></header-component>
+	<div class="myprofile1">
+		<div class="container">
+			<div class="col-sm-3 myprofile_left">
+				<div class="profile_photo">
+				<img src="images/mypro.png">
+				<h4>Stella Budzyn</h4>
+				<p>@makeup_by_stella</p>
+			</div>
+
+<div class="listed">
+<ul>
+	    <li><a href="myprofile.html"><i class="fa-regular fa-user"></i> Profile Information</a></li>
+                                <li><a href="address.html"><i class="fa-regular fa-address-card"></i> Manage Addresses</a></li>
+                                <li><a href="payment.html"><i class="fa-regular fa-credit-card"></i> Payments</a></li>
+                                <li><a href="myorders.html"><i class="fa-solid fa-tag"></i> My Orders</a></li>
+</ul>
+
+
+
+</div>
+
+
+
+			</div>
+			<div class="col-sm-9 myprofile_right">
+				<div class="profile_right">
+				<h2>Profile Information</h2>
+
+             <form class="col-sm-6 form">
+             	<input type="text" name="text" placeholder="First Name*">
+             	
+             	  <fieldset>
+    
+    <div class="field moveindate">
+      
+      <input autocomplete="off" class="text" id="MoveInDate" name="MoveInDate" placeholder="DD-MM-YYYY" type="date">
+    </div>
+  </fieldset>
+  <input id="number" type="tel"/>
+                            
+             </form>
+             <form class="col-sm-6 form">
+             	<input type="text" name="text" placeholder="Last Name*">
+             	
+             	 <select class="form-select" aria-label="Default select example">
+  <option selected>Gender</option>
+  <option value="1">Female</option>
+  <option value="2">Male</option>
+  <option value="3">Others</option>
+</select>
+<input type="text" name="text" placeholder="Email Id">
+                            
+             </form>
+
+<input type="text" name="text" placeholder="Tell us something about yourself" class="tell_us">
+
+
+ <p><button type="button" class="btn btn-dark explore">Update <i class="fa-solid fa-chevron-right"></i></button></p>
+
+
+</div>
+			</div>
+		</div>
+		
+	</div>
+<footer-component></footer-component>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+     const phoneInputField = document.querySelector("#number");
+     const phoneInput = window.intlTelInput(phoneInputField, {
+       utilsScript:
+         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+     });
+  </script>
+
+
+
+
+
+</body>
+</html>

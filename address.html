@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>my address</title>
+        <link rel="stylesheet" type="text/css" href="css/pet.css" />
+        <link rel="stylesheet" type="text/css" href="css/PetProject.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="components/footer.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <div class="myprofile">
+            <header-component></header-component>
+            <div class="myprofile1">
+                <div class="container">
+                    <div class="col-sm-3 myprofile_left">
+                        <div class="profile_photo">
+                            <img src="images/mypro.png" />
+                            <h4>Stella Budzyn</h4>
+                            <p>@makeup_by_stella</p>
+                        </div>
+
+                        <div class="listed">
+                            <ul>
+                                  <li><a href="myprofile.html"><i class="fa-regular fa-user"></i> Profile Information</a></li>
+                                <li><a href="address.html"><i class="fa-regular fa-address-card"></i> Manage Addresses</a></li>
+                                <li><a href="payment.html"><i class="fa-regular fa-credit-card"></i> Payments</a></li>
+                                <li><a href="myorders.html"><i class="fa-solid fa-tag"></i> My Orders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 myprofile_right">
+                        <div class="profile_right">
+                            <h3>Manage Addresses</h3>
+
+                            <div class="add_address">
+                                <div class="add_new">
+                                    <a href="#"><i class="fa-solid fa-plus"></i> ADD NEW ADDRESS</a>
+                                </div>
+
+                                <div class="old_address">
+                                    <div>
+                                       <span class="col-sm-6 default">Default</span><span class="col-sm-6 dustbin"><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"> <i class="fa-regular fa-trash-can"></i></a></span>
+                                    </div>
+
+                                    <p >2 Candlelight Lane, Bethany Beach,de, 19930 United States</p>
+                                    <p >Pin : 19930</p>
+                                    <p>Mobile No. : 0231587822</p>
+                                </div>
+
+                                <div class="old_address">
+                                    <p>
+ <span class="col-sm-6 default"> home</span><span class="col-sm-6 dustbin"><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"> <i class="fa-regular fa-trash-can"></i></a></span>
+                                    </p>
+                                    <p>2 Candlelight Lane, Bethany Beach,de, 19930 United States</p>
+                                    <p>Pin : 19930</p>
+                                    <p>Mobile No. : 0231587822</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer-component></footer-component>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,817 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@700&family=Rubik&display=swap");
+.mycontainer {
+    margin: auto;
+    height: 1400px;
+}
+header {
+    float: left;
+    width: 100%;
+}
+.hed {
+    float: left;
+    width: 100%;
+    margin-top: 19px;
+}
+.logo {
+    float: left;
+}
+.option {
+    float: left;
+}
+.option ul {
+    margin: revert;
+}
+.option ul li {
+    list-style: none;
+    display: inline;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
+}
+.option li a {
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+}
+.hed .option li a:hover {
+    background-image: url(../images/bone.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+.drop {
+    text-align: right;
+    float: left;
+}
+button.btn.btn-light.login {
+    margin: 0 48px;
+    background: transparent;
+    border: none;
+}
+.drop ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.drop .login i {
+    height: 21.12589454650879px;
+    width: 17.279998779296875px;
+    left: 1118px;
+    top: 52px;
+    border-radius: 0px;
+
+    padding-right: 6px;
+}
+button.btn.btn-dark.cart {
+    color: rgba(218, 218, 218, 1);
+    font-family: Exo 2;
+}
+.drop .cart img {
+    padding-right: 4px;
+}
+.drop .login span {
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.drop .cart span {
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.s1 {
+    float: left;
+    width: 100%;
+}
+.navi {
+    float: left;
+    width: 100%;
+}
+
+.navi .navbar-collapse {
+    padding: 0 43px;
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+.navi .navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: start !important;
+}
+a#navbarDarkDropdownMenuLink {
+    font-family: "Exo 2", sans-serif;
+}
+a#navbarDarkDropdownMenuLink:hover {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    transition: ease;
+}
+
+.dogs {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 100%;
+    background-image: url(../images/Group.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 512px;
+}
+.pack {
+    float: left;
+}
+.write {
+    float: left;
+}
+.write h1 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+.write h4 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.write button {
+    padding: 9px 28px;
+}
+.write button i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.s2 {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+.hello {
+    float: left;
+    width: 100%;
+}
+.view {
+    float: left;
+    text-align: right;
+}
+.text {
+    float: left;
+}
+.view button {
+    padding: 9px 28px;
+}
+.view button i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.hello h4 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.hello .text {
+    font-family: pangolin;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.row {
+    margin-top: 50px !important;
+    margin-left: 55px !important;
+    float: left;
+    width: 100%;
+}
+.row .bob {
+    border: none;
+    text-align: center;
+}
+.bob .add {
+    border: 2px solid black;
+    padding: 8px 20px;
+    margin-right: 40px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.bob .like {
+    box-shadow: 0px 2px 8px 0px rgba(69, 69, 69, 0.15);
+}
+.bobby {
+    margin-bottom: 80px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.sect {
+    float: left;
+    width: 100%;
+    background-image: url(../images/dogg.png);
+    height: 296px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+}
+
+.help {
+    float: left;
+    width: 100%;
+}
+.sect h1 {
+    text-align: center;
+    font-size: 73px;
+    position: relative;
+    top: 50%;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 100px;
+    color: rgba(103, 43, 0, 1);
+}
+.plz {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    float: left;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.plz .pol {
+    text-align: center;
+    float: left;
+    border: none;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    box-shadow: 5px 20px 47px 11px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    padding: 30px;
+    width: 17rem;
+}
+.plz .pol:hover {
+    width: 20rem;
+    transition: 0.4s linear;
+    border: 2px solid;
+}
+.plz img {
+    max-width: 60%;
+    margin-left: 42px;
+}
+
+footer {
+    float: left;
+
+    width: 100%;
+    background: rgba(246, 250, 249, 1);
+    height: 450px;
+}
+
+.foot {
+    margin-top: 170px;
+    float: left;
+    width: 100%;
+    background: rgba(246, 250, 249, 1);
+}
+.left {
+    float: left;
+}
+.center {
+    float: left;
+    padding-left: 26px;
+}
+.right {
+    float: left;
+}
+.lower {
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgba(65, 65, 65, 1);
+    background: rgba(246, 250, 249, 1);
+    padding-bottom: 15px;
+    margin-top: 48px;
+}
+.foot ul {
+    list-style: none;
+}
+.left p {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    padding: 23px 0;
+}
+.foot ul li {
+    padding: 10px 0;
+}
+.foot .left i {
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 13px;
+    background: rgba(196, 196, 196, 1);
+    font-size: 21px;
+    color: white;
+}
+.foot .center li {
+    font-family: Pangolin;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.right li span {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.right .kop {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.right li p {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(117, 119, 119, 1);
+    padding-right: 123px;
+}
+.center li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bob img.card-img-top {
+    height: 340px;
+}
+.extra::before {
+    left: -3%;
+    position: absolute;
+    content: " ";
+    z-index: +1;
+    width: 115px;
+    height: 115px;
+    background-image: url(../images/LEFT.PNG);
+    background-repeat: no-repeat;
+    top: -14px;
+}
+.extra::after {
+    position: absolute;
+    content: " ";
+    height: 115px;
+    background-image: url(../images/RIGHT.PNG);
+    z-index: +1;
+    width: 115px;
+    background-repeat: no-repeat;
+}
+.extra::after {
+    right: -3%;
+    position: absolute;
+    content: " ";
+    z-index: +1;
+    width: 115px;
+    height: 115px;
+    background-image: url(../images/RIGHT.PNG);
+    background-repeat: no-repeat;
+    bottom: -14px;
+}
+.extra {
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin: 0 25%;
+    background: black;
+    padding: 40px;
+    position: relative;
+    top: 105px;
+}
+.forms {
+    float: left;
+    width: 60%;
+    margin: 0 20%;
+}
+.forms .txt {
+    float: left;
+}
+.forms .bot {
+    float: left;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.extra h4 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+    color: white;
+}
+.extra p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    color: rgba(250, 250, 250, 0.7);
+}
+.extra input[type="text"] {
+    padding: 7px 12px;
+    background: linear-gradient(0deg, rgba(108, 111, 135, 0.3), rgba(108, 111, 135, 0.3));
+    border: 2px solid;
+
+    border-image-source: linear-gradient(93.14deg, rgba(255, 255, 255, 0.2) -22.56%, rgba(255, 255, 255, 0) 100%);
+}
+.extra button.btn.btn-light.bot {
+    color: rgba(48, 52, 86, 1);
+    padding: 8px 15px;
+    border-radius: 0;
+    margin-left: 13px;
+}
+.img {
+    float: left;
+    position: absolute;
+    width: 100%;
+    bottom: 136px;
+    left: 156px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .option li a {
+        color: black;
+        padding: 0px 17px;
+        text-decoration: none;
+    }
+    .write button {
+    padding: 5px 6px;
+    font-size: 8px;
+}
+.write button i {
+    font-size: 9px;
+    padding-left: 4px;
+}
+
+    .dogs {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 100%;
+    background-image: url(../images/Group.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 186px;
+}
+    .write h4 {
+        font-family: "Exo 2", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    .write h1 {
+        font-family: "Exo 2", sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: white;
+    }
+    .view {
+        float: left;
+        text-align: center;
+    }
+    .hello .text {
+        width: 100%;
+        font-family: pangolin;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .hello h4 {
+        font-family: "Exo 2", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .row {
+        margin-top: 35px !important;
+        margin-left: 0px !important;
+        float: left;
+        width: 100%;
+    }
+    .sect {
+        height: unset;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 80px;
+    }
+    .plz {
+        display: flex;
+        margin-top: 0;
+    }
+    .plz img {
+        max-width: 60%;
+        margin-left: 25px;
+    }
+    .plz .pol {
+        padding: 0px;
+        width: 7rem;
+    }
+    .center {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .img {
+        float: left;
+        position: absolute;
+        width: 100%;
+        top: 102px;
+        left: 0px;
+        max-width: 100%;
+    }
+    .extra {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        background: black;
+        padding: 40px;
+        position: relative;
+        top: 105px;
+    }
+    .sect h1 {
+        text-align: center;
+        font-size: 27px;
+        position: relative;
+        top: -2%;
+        font-family: Rubik;
+        font-weight: 500;
+        line-height: 100px;
+        color: rgba(103, 43, 0, 1);
+    }
+    .right li p {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: rgba(117, 119, 119, 1);
+        padding-right: 0;
+    }
+    .col-sm-6.select_add {
+        width: 50%;
+        padding-left: 40px;
+    }
+}
+
+@media only screen  and (min-width: 767px) and (max-width: 999px){
+
+.row {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    float: left;
+    width: 100%;
+}
+
+.bob img.card-img-top {
+    max-width: 73%;
+    height: 231px;
+}
+.row .bob {
+    border: none;
+    text-align: left;
+}
+
+.sect h1 {
+    text-align: center;
+    font-size: 53px;
+    position: relative;
+    top: 17%;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 100px;
+    color: rgba(103, 43, 0, 1);
+}
+.sect {
+    background-size: contain;
+    margin-bottom: 0px;
+}
+.plz .pol {
+    width: 13rem;
+}
+.plz img {
+    max-width: 70%;
+    margin-left: 19px;
+}
+
+.extra {
+    text-align: center;
+    float: left;
+    width: 92%;
+    margin: 0 4%;
+    background: black;
+    padding: 40px;
+    position: relative;
+    top: 109px;
+}
+
+.img {
+    float: left;
+    position: absolute;
+    width: 100%;
+    bottom: 138px;
+    left: 142px;
+    max-width: 100%;
+}
+
+.right li p {
+padding-right: 0}
+
+
+.option li a {
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+}
+
+
+.write h4 {
+font-size: 37px}
+.write h1 {
+    font-size: 29px;
+}
+.dogs {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 276px;
+}
+.hello .text {
+    font-family: pangolin;
+    font-size: 34px;
+   
+}
+
+
+.plz{
+    margin-top: 0;
+}
+.arrival_pdct {
+    margin: 0px 11px;
+width: 45%}
+
+.bobby {
+    padding-top: 44px;
+   
+}
+
+
+
+
+
+
+
+}
